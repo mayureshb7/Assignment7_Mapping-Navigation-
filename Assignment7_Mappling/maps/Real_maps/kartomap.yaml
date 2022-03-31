@@ -1,0 +1,7 @@
+image: /home/thedoctor/kartomap.pgm
+resolution: 0.050000
+origin: [-2.285034, -3.650412, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

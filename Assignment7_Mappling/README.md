@@ -33,7 +33,7 @@ This file describes mapping and navigation of a Turtlebot3 Burger on Gazebo and 
 		b) In another terminal run command "roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/gmap.yaml"
 		c) Define the pose in RVIZ for navigation
 		
-	2) Mapping and Navigation using Hukoyo 2D Lidar
+	2) Mapping and Navigation using Hukoyo 2D & 3D Lidar
 	
 		Mapping:
 		1) Run command: "roslaunch Assignment7_Mappling slam_gmap.launch"
@@ -49,6 +49,9 @@ This file describes mapping and navigation of a Turtlebot3 Burger on Gazebo and 
 	Difference in between two LIDAR for mapping and navigation:
 		1) Gmapping by LDS lidar shows better capability in tracing out the obstacles accurately than the 2D Hukoyo LIDAR
 		2) LDS Lidar mapping gave clear edge detection of the map than the Hukoyo LIDAR
+		3) Processing or computation time of Hukoyo 3D LIDAR is a lot when compared to 2D LDS and 2D Hukoyo LIDAR
+		4) The accuracy of 3D lidar is precise and it detects edges better than the 2D LIDAR
+		5) As the computation time is higher, the rate at which the robot travels is significantly slower than the other 2D LIDAR
 	
 	Refer to videos for demonstration of above tasks from Assignment7_Mappling/videos
 	Refer to view and use maps from Assignment7_Mappling/maps

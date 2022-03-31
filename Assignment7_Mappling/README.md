@@ -2,6 +2,7 @@ This file describes mapping and navigation of a Turtlebot3 Burger on Gazebo and 
 
 
 *Part 1 - Mapping & Navigation - Real World*
+
 	1) Gmapping and Navigation
 		a) Run Roscore on the pc terminal
 		b) Bring up turtlebot3 burger by using this command on turtlebot terminal: roslaunch turtlebot3_bringup turtlebot3_robot.launch
@@ -15,6 +16,7 @@ This file describes mapping and navigation of a Turtlebot3 Burger on Gazebo and 
 		d) Define the pose in RVIZ for navigation	
 		
 *Part 2 - Mapping & Navigation using two different LIDAR (LDS & 2D Hukoyo)- Gazebo World*
+
 	1) Mapping and Navigation using LDS Lidar
 		Mapping:
 		1) Run command: "roslaunch Assignment7_Mappling slam_gmap.launch"

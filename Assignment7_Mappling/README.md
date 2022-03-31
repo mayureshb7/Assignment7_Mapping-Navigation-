@@ -15,6 +15,11 @@ This file describes mapping and navigation of a Turtlebot3 Burger on Gazebo and 
 		c) Run command: "rosrun map_server map_saver -f ~/kartomap" in different terminal for execution of gmapping in real world environment (Map available in Assignment7_Mapping/maps)
 		d) Define the pose in RVIZ for navigation	
 		
+	Difference and observations of between SLAM Algorithm Karto and Gmapping
+		1) Gmapping shows clear map with edges and shapes when compared to Karto map
+		2) When tried with a little off starting position of the robot for Gmapping, the navigation does not tend to take a path defined in the RVIZ and is slightly different
+		3) After reacheing its final destination in real world, in both gmapping and karto navigation the robot detects the surrounding and tries to correct itself to by rotating and moving to a final stop
+		
 *Part 2 - Mapping & Navigation using two different LIDAR (LDS & 2D Hukoyo)- Gazebo World*
 
 	1) Mapping and Navigation using LDS Lidar
